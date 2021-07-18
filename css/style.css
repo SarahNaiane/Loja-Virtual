@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    text-decoration: none;
+    background-color: #0c0c0c;
+}
+
+menu {
+    list-style: none;
+    border: 1px solid #0c0c0c;
+    float: left;
+}
+
+.menu li {
+    position: relative;
+    float: left;
+    border-right: 1px solid white;
+    display: inline;
+}
+
+.menu a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 62px 90px;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    background-color: red;
+}
+
+.menu li ul {
+    position: absolute;
+    top: 25px;
+    left: 0;
+    background-color: #fff;
+    display: none;
+    list-style-type: none;
+}
+
+.menu li:hover ul,
+.menu li.over ul {
+    display: block;
+}
+
+.menu li ul li {
+    border-right: 1px solid white;
+    display: block;
+    width: 150px;
+}
+
+.copy-right aside {
+    margin-top: 5%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+main {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+main form {
+    margin: 40px auto;
+    width: 56%;
+    height: 80vh;
+    background-color: white;
+    box-shadow: 0px 3px 4px rgba(0, 0, 0. 0.4) insert 0px 4px 4px rgba(0, 0, 0. 0, 25);
+    border-radius: 18px;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main form .inputs-container {
+    margin-top: 10%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+}
+
+main form .inputs-container input {
+    width: 92%;
+    height: 40px;
+    padding: 8px 15px;
+    outline: 0;
+    border: 1px solid rgb(247, 109, 17);
+    border-radius: 12px;
+    font-size: 16px;
+    box-shadow: 0px 3px 3px rgba(0, 0, 0. 0.25);
+    margin: 0 1em 50px 14px;
+    background-color: #f3f0ef;
+}
+
+main form .inputs-container input:focus {
+    box-shadow: inset 1px 4px 7px rgba(0, 0, 1);
+}
+
+main form button {
+    background-color: #e95e0d;
+    width: 90%;
+    height: 50px;
+    border: 0;
+    outline: 0;
+    border-radius: 12px;
+    margin-top: 10%;
+    font-size: 0.6cm;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    align-items: center;
+}
+
+main form button:hover {
+    background: rgb(22, 22, 22);
+    color: #e95e0d
+}
+
+main form h1,
+p {
+    background-color: white;
+    align-items: center;
+    margin: 5%;
+    font-size: 20px;
+}
+
+footer {
+    text-align: center;
+    background-color: #0c0c0c;
+    color: white;
+}
+
+footer a {
+    color: white;
+    height: 10px;
+    width: 30px;
+}
+
+footer p {
+    text-align: center;
+    padding: 3px;
+    background-color: #0c0c0c;
+    color: white;
+}
+
+.section-container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.backgroud-section {
+    background-image: url(../assets/p.jpg);
+    background-attachment: fixed;
+    background-size: contain;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    background-color: white;
+}
+
+textarea {
+    background-color: white;
+}
