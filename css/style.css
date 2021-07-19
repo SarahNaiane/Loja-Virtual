@@ -47,15 +47,9 @@ menu {
     display: block;
 }
 
-.menu li ul li {
-    border-right: 1px solid white;
-    display: block;
-    width: 150px;
-}
-
 .copy-right aside {
     margin-top: 5%;
-    width: 50%;
+    width: 40%;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -99,7 +93,7 @@ main form .inputs-container input {
     border-radius: 12px;
     font-size: 16px;
     box-shadow: 0px 3px 3px rgba(0, 0, 0. 0.25);
-    margin: 0 1em 50px 14px;
+    margin: -31px 1em 50px 14px;
     background-color: #f3f0ef;
 }
 
@@ -131,7 +125,11 @@ main form h1,
 p {
     background-color: white;
     align-items: center;
-    margin: 5%;
+    margin: 1%;
+    background-color: white;
+    align-items: center;
+    margin: 1%;
+    font-size: 20px;
     font-size: 20px;
 }
 
@@ -163,17 +161,49 @@ footer p {
 }
 
 .backgroud-section {
-    background-image: url(../assets/p.jpg);
+    background-image: url(../assets/la);
     background-attachment: fixed;
     background-size: contain;
     justify-content: center;
     align-items: center;
 }
 
-p {
-    background-color: white;
+main form textarea {
+    width: 400px;
+    height: 150px;
+    line-height: 20px;
+    max-width: 400px;
+    background-color: #f3f0ef;
+    border: 1px solid rgb(247, 109, 17);
+    border-radius: 12px;
+    font-size: 16px;
+    box-shadow: 0px 3px 3px (0, 0, 0. 0.25);
 }
 
-textarea {
-    background-color: white;
+.texto p {
+    background-color: black;
+    align-items: center;
+    margin: 1%;
+    font-size: 20px;
+    color: white;
+}
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 999;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: orange;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+}
+
+#myBtn:hover {
+    background-color: red;
 }
